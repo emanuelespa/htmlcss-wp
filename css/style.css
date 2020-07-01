@@ -84,6 +84,11 @@ main::after{
   display: block;
   clear: both;
 }
+.donzel::after{
+  content: "";
+  display: block;
+  clear: both;
+}
 
 h2{
   padding-bottom: 30px;
@@ -125,6 +130,7 @@ h2{
 }
 
 
+/* nota footer */
 footer{
   height: 100px;
   background-color: white;
@@ -138,4 +144,15 @@ footer{
   padding: 2px;
   text-align:center;
   font-size: 15px;
+}
+
+.font2{
+  position: relative;
+  display: inline-block;
+  width: 33.3%;
+}
+
+.font3{
+  position: absolute;
+  top:
 }
