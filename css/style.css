@@ -108,11 +108,14 @@ h2{
   float: left;
   width: 29%;
   margin-left: 1%;
+  border-radius: 10px;
 }
 
 .widget{
   margin-bottom: 10px;
   background-color: white;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 
