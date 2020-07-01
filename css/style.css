@@ -4,15 +4,45 @@
   padding: 0;
 }
 
+#sfondo{
+  background-image: url(../img/natural-default-pattern.png);
+}
+
+/* immagine con natural */
 header{
-  height: 200px;
   background-color: yellow;
   margin: 10px 0;
+}
+
+#immagine1{
+  background-image: url(../img/natural-default-header.jpg);
+}
+
+.header-top{
+ position: relative;
+ height: 300px;
 }
 
 .container {
   width: 1000px;
   margin: auto;
+}
+
+.container-logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.container-logo h1{
+  display: inline-block;
+  font-size: 60px;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  border: 5px solid #fff;
 }
 
 main{
@@ -46,7 +76,7 @@ main::after{
 
 .widget{
   margin-bottom: 10px;
-  background-color: red;
+  background-color: white;
 }
 
 footer{
