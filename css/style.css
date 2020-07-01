@@ -3,14 +3,16 @@
   margin: 0;
   padding: 0;
 }
-
+/* sfondo principale */
 #sfondo{
   background-image: url(../img/natural-default-pattern.png);
 }
-
+.sfondo2{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* immagine con natural */
 header{
-  background-color: yellow;
   margin: 10px 0;
 }
 
@@ -21,6 +23,7 @@ header{
 .header-top{
  position: relative;
  height: 300px;
+ border: 10px solid white;
 }
 
 .container {
