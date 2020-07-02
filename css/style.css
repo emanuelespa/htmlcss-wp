@@ -153,25 +153,32 @@ footer{
   background-color: white;
   margin: 10px 0;
   border-radius: 10px;
+  text-align: center;
 }
 
 .copy{
   font-style: italic;
   color: lightgrey;
   padding: 2px;
-  text-align:center;
   font-size: 15px;
 }
 
-.font2{
-  position: relative;
-  display: inline-block;
-  width: 33.3%;
+.social-list {
+  list-style: none;
 }
-
-.fa-facebook{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.social-list::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.social-list li {
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+}
+.social-list li a {
+  color: lightgrey;
+}
+.social-list li a > i {
+  font-size: 35px;
 }
